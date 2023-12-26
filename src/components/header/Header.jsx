@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
+import ORIGAMI from "../../assets/origami.png";
 import HeaderSocials from "./HeaderSocials";
 import { TypeAnimation } from "react-type-animation";
 
@@ -10,7 +11,12 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello {"👋"} I'm</h5>
-        <h3>Prashanth</h3>
+        <h3>
+          Prashanth
+          <div className="origami__conatiner">
+            <img src={ORIGAMI} alt="origami" />
+          </div>
+        </h3>
         <h2 className="text-light">
           <TypeAnimation
             sequence={[

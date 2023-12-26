@@ -60,6 +60,14 @@ header {
   font-size: 0.9rem;
 }
 
+.origami__conatiner {
+  position: absolute;
+  left: 40rem;
+  top: 1.5rem;
+  padding: 0rem;
+  width: 40px;
+}
+
 /* =================Media Queries (Medium Device)========================= */
 
 @media screen and (max-width: 1024px) {
