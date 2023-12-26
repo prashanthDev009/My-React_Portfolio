@@ -13,9 +13,9 @@ const Header = () => {
         <h5>Hello {"👋"} I'm</h5>
         <h3>
           Prashanth
-          <div className="origami__conatiner">
+          {/* <div className="origami__conatiner">
             <img src={ORIGAMI} alt="origami" />
-          </div>
+          </div> */}
         </h3>
         <h2 className="text-light">
           <TypeAnimation
