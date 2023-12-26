@@ -74,6 +74,13 @@ header {
   header {
     height: 68vh;
   }
+  .origami__conatiner {
+    position: absolute;
+    left: 16rem;
+    top: 1.5rem;
+    padding: 0rem;
+    width: 40px;
+  }
 }
 
 /* =================Media Queries (Small Device)========================= */
