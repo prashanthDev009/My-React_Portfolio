@@ -4,7 +4,6 @@ import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import Typed from "react-typed";
-import Emoji from "a11y-react-emoji";
 
 const Header = () => {
   return (
