@@ -21,8 +21,8 @@ const About = () => {
 
             <article className="about__card">
               <TbUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>10+ Worldwild</small>
+              <h5>Professional</h5>
+              <small>Software Engineer</small>
             </article>
 
             <article className="about__card">
